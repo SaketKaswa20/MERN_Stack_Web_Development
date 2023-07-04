@@ -1,0 +1,39 @@
+*{ /*Universal Selector, Best practice to follow*/
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    background-color: aquamarine;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: brown; */
+    /*This above 3 border properties can be defined in on line as below*/
+    border: solid 5px brown;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.firstpara{
+    background-color: blanchedalmond;
+    border: solid 5px brown;
+    border-radius: 5px;
+    width: 500px;
+    padding: 50px; /*Space between content and border*/
+    margin: 50px; /*Space between two boxess*/
+    box-sizing: border-box; /*Read about it on w3schools*/
+ }
+
+.secondpara{
+    background-color: beige;
+    border: solid 5px brown;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.thirdpara{
+    background-color: yellow;
+    border: solid 5px brown;
+    border-radius: 5px;
+    width: 500px;
+}
