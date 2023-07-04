@@ -1,0 +1,22 @@
+p{
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900; /*Text ko thoda thick krdeta*/
+    line-height: 50px; /*Distance between lines*/
+}
+
+#FirstPara{
+    background-color: yellow;
+    color: brown;
+}
+
+#SecondPara{
+    background-color: rgb(256, 50, 0);
+    color: rgb(50, 100, 150);
+}
+
+#ThirdPara{
+    background-color: rgba(50, 100, 150, 0.1);
+    /* In rgba the a is alpha and it decides the transperancy */
+}
