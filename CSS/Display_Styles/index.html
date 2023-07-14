@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* Isse box ke size main farak nahi aayega; content shrink hojayega */
+        }
+
+        .box{
+            display: inline; /*This will explicitly convert it into inline element*/
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 100px;
+        }
+
+        span{
+            border: 1px solid green;
+            height: 300px; /*Won't affect*/
+            width: 300px; /*Won't affect */
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            /* display: block; This lime explicity converts inline elements into block elements */
+        }
+
+        /* div{
+            border: 1px solid red;
+            height: 300px;
+            width: 300px;
+            margin: 25px;
+            padding: 50px;
+        } */
+
+    </style>
+
+</head>
+<body>
+    <!-- <div>
+        Welcome Saket Kaswa
+    </div>
+
+    <div>
+        Welcome Saket Kaswa 2.0
+    </div> -->
+    <!-- Block elements come on new lines -->
+    <!-- Block Elements takes up the whole width i.e. from the extreme left to the extreme right -->
+    <!-- Block elements can take up custom widths and height -->
+    <!-- Block elements respect custom margin and padding -->
+
+    <!-- <div class="box">
+        Welcome Saket Kaswa
+    </div>  -->
+
+    <span>
+        This is Saket Kaswa
+    </span>
+
+    <span>
+        This is Saket Kaswa
+    </span>
+    <!-- Inline elements try to come on the same line -->
+    <!-- Width of inline elements is just as content -->
+    <!-- Inline elements can not take up custom widths and heights -->
+    <!-- No custom margins -->
+
+</body>
+</html>
